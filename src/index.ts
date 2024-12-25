@@ -28,7 +28,7 @@ type FrameworkVariant = {
   customCommand?: string
 }
 
-const defaultTargetDir = 'ihccc-admin'
+const defaultTargetDir = 'admin'
 
 const FRAMEWORKS: Framework[] = [
   {
