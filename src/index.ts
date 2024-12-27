@@ -56,6 +56,19 @@ const FRAMEWORKS: Framework[] = [
       // },
     ],
   },
+  {
+    name: 'koa',
+    display: 'koa',
+    color: red,
+    variants: [
+      {
+        name: 'ihccc-server',
+        display: 'ihccc-server',
+        color: cyan,
+        customCommand: 'git clone https://github.com/IhcccJS/server.git',
+      },
+    ],
+  },
 ]
 
 const TEMPLATES = FRAMEWORKS.map(

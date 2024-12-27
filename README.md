@@ -41,5 +41,6 @@ pnpm create ihccc my-app --template ihccc-admin
 Currently supported template presets include:
 
 - `ihccc-admin`
+- `ihccc-server`
 
 You can use `.` for the project name to scaffold in the current directory.
